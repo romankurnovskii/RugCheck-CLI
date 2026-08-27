@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { RugCheckClient, RugCheckErrorClass, createRugCheckClient } from '../src/client';
+import { createRugCheckClient, RugCheckClient, RugCheckErrorClass } from '../src/client';
 
 const mockFetch = vi.fn();
 

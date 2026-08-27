@@ -1,29 +1,29 @@
 import type {
-  TokenSummary,
-  TokenSearchResult,
-  VerifiedToken,
-  VerifiedTokensResponse,
-  TokenValidation,
-  VoteStats,
-  LockersResponse,
-  EligibilityResponse,
-  VerificationTransactionRequest,
-  VerificationTransactionResponse,
-  VerificationSubmitRequest,
-  VerificationSubmitResponse,
   BulkReportRequest,
   BulkSummaryRequest,
-  VoteRequest,
-  VoteResponse,
-  LeaderboardEntry,
   DomainEntry,
   DomainLookupResponse,
-  StatsNewToken,
-  StatsRecent,
-  StatsTrending,
+  EligibilityResponse,
+  LeaderboardEntry,
+  LockersResponse,
   MaintenanceResponse,
   PingResponse,
   RugCheckError,
+  StatsNewToken,
+  StatsRecent,
+  StatsTrending,
+  TokenSearchResult,
+  TokenSummary,
+  TokenValidation,
+  VerificationSubmitRequest,
+  VerificationSubmitResponse,
+  VerificationTransactionRequest,
+  VerificationTransactionResponse,
+  VerifiedToken,
+  VerifiedTokensResponse,
+  VoteRequest,
+  VoteResponse,
+  VoteStats,
 } from './types.js';
 
 export interface RugCheckClientOptions {
@@ -139,7 +139,7 @@ export class RugCheckClient {
       page: String(page),
       maxScore: String(maxScore),
     });
-    if (query && query.trim()) {
+    if (query?.trim()) {
       params.set('q', query.trim());
     }
     return this.request<TokenSearchResult[]>(`/v1/search?${params}`);
