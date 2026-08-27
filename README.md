@@ -3,16 +3,18 @@
   <h1 align="center">@etemaro/rugcheck</h1>
   <p align="center">
     <strong>SDK for the RugCheck Token Security API</strong>
+    <br/>
+    https://fluxrpc.com/docs/rugcheck 
   </p>
   <p align="center">
     <a href="https://www.npmjs.com/package/@etemaro/rugcheck">
       <img src="https://img.shields.io/npm/v/@etemaro/rugcheck?style=flat-square&color=blue" alt="NPM Version">
     </a>
-    <a href="https://github.com/etemaro/rugcheck/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/etemaro/rugcheck?style=flat-square&color=green" alt="License">
+    <a href="https://github.com/romankurnovskii/RugCheck-CLI/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/romankurnovskii/RugCheck-CLI?style=flat-square&color=green" alt="License">
     </a>
-    <a href="https://github.com/etemaro/rugcheck/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/etemaro/rugcheck/ci.yml?style=flat-square&label=CI" alt="Build Status">
+    <a href="https://github.com/romankurnovskii/RugCheck-CLI/actions">
+      <img src="https://img.shields.io/github/actions/workflow/status/romankurnovskii/RugCheck-CLI/ci.yml?style=flat-square&label=CI" alt="Build Status">
     </a>
     <a href="https://www.typescriptlang.org/">
       <img src="https://img.shields.io/badge/TypeScript-5.x-blue?style=flat-square&logo=typescript" alt="TypeScript">
@@ -315,7 +317,7 @@ try {
 
 ```bash
 # Clone the repository
-git clone https://github.com/etemaro/rugcheck.git
+git clone https://github.com/romankurnovskii/RugCheck-CLI.git
 cd rugcheck
 
 # Install dependencies
