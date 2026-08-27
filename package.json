@@ -1,12 +1,12 @@
 {
-  "name": "package-name",
-  "version": "1.0.0",
-  "description": "DESCRIPTION",
+  "name": "@etemaro/rugcheck",
+  "version": "1.0.1",
+  "description": "SDK for the RugCheck Token Security API",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "bin": {
-    "package-name": "./dist/bin.js"
+    "rugcheck": "./dist/bin.js"
   },
   "scripts": {
     "start": "tsx src/bin.ts",
@@ -47,18 +47,17 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "homepage": "https://github.com/romankurnovskii/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/etemaro/rugcheck#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romankurnovskii/PACKAGE_NAME.git"
+    "url": "git+https://github.com/etemaro/rugcheck.git"
   },
   "bugs": {
-    "url": "https://github.com/romankurnovskii/PACKAGE_NAME/issues"
+    "url": "https://github.com/etemaro/rugcheck/issues"
   },
-  "keywords": ["npm-module"],
+  "keywords": ["rugcheck", "solana", "token", "security", "sdk", "api"],
   "author": {
-    "name": "Roman Kurnovskii",
-    "email": "r.kurnovskii@gmail.com",
-    "url": "https://romankurnovskii.com"
+    "name": "Etemaro",
+    "url": "https://github.com/etemaro"
   }
 }
