@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "romankurnovskii/npm-typescript-package-template"
+      "repo": "etemaro/rugcheck"
     }
   ],
   "commit": false,
