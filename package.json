@@ -47,13 +47,13 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "homepage": "https://github.com/etemaro/rugcheck#readme",
+  "homepage": "https://github.com/romankurnovskii/RugCheck-CLI#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etemaro/rugcheck.git"
+    "url": "git+https://github.com/romankurnovskii/RugCheck-CLI.git"
   },
   "bugs": {
-    "url": "https://github.com/etemaro/rugcheck/issues"
+    "url": "https://github.com/romankurnovskii/RugCheck-CLI/issues"
   },
   "keywords": ["rugcheck", "solana", "token", "security", "sdk", "api"],
   "author": {

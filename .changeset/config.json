@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "etemaro/rugcheck"
+      "repo": "romankurnovskii/RugCheck-CLI"
     }
   ],
   "commit": false,
