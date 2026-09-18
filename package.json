@@ -26,7 +26,7 @@
     "@biomejs/biome": "2.5.10",
     "@changesets/changelog-github": "1.0.0",
     "@changesets/cli": "3.0.1",
-    "@types/node": "26.4.0",
+    "@types/node": "26.5.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.1",
     "tsx": "4.23.12",
