@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Replace SSH with token-based HTTPS for private GitHub repo
-        run: git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "ssh://git@github.com/"
+        run: git config --global url."https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/".insteadOf "ssh://git@github.com/"
 
       - name: combine-prs
         id: combine-prs
         uses: github/combine-prs@v5.2.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # GITHUB_TOKEN is a default secret
+          github_token: ${{ secrets.GH_TOKEN }} # GH_TOKEN is the repo PAT secret
           labels: combined-pr
